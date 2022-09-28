@@ -1,6 +1,6 @@
 bl_info = {
     "name": "Export 2D Tracking Data",
-    "author": "Chaiwit Jarunyakorn (chaiwit.3d@gmail.comm)",
+    "author": "Tanawat Wattanachinda (tanawat.w@gmail.comm)",
     "version": (3, 6, 0),
     "blender": (2, 77, 0),
     "location": "File > Export > 2D Tracking data (.txt)",
