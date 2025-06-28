@@ -3,15 +3,16 @@
 
 Support for Blender 4.2 or later
 
-Export Blender
-`File > Export > 2D Tracking Data (.txt)`
+---
+Export to Blender
+- `File > Export > 2D Tracking Data (.txt)`
+---
 
+Import to Syntheyes
+- `Import > Plain Text > Import 2-D Tracker Paths`
 
-Import Syntheyes
-`Import > Plain Text > Import 2-D Tracker Paths`
+Import to PFTrack
+- `User Track Node > Import`
 
-Import PFTrack
-`User Track Node > Import`
-
-Import 3DEqualizer
-`Import > Import 2D Tracks`
+Import to 3DEqualizer
+- `Import > Import 2D Tracks`
