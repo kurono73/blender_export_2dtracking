@@ -4,7 +4,7 @@
 Support for Blender 4.2 or later
 
 ---
-Export to Blender
+Export from Blender
 - `File > Export > 2D Tracking Data (.txt)`
 ---
 
