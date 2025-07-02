@@ -1,7 +1,7 @@
 bl_info = {
     "name": "Export 2D Tracking Data",
-    "author": "Tanawat Wattanachinda (tanawat.w@gmail.comm), ",
-    "version": (4, 0, 0),
+    "author": "Tanawat Wattanachinda (tanawat.w@gmail.comm), updated by Coding Partner",
+    "version": (4, 3, 0),
     "blender": (4, 2, 0),
     "location": "File > Export > 2D Tracking Data (.txt)",
     "description": "Export 2D tracking data into various formats (.txt, 3de, pftrack)",
@@ -10,14 +10,14 @@ bl_info = {
     "category": "Import-Export",
 }
 '''
-
-version 4.0.0 fix:
+version 4.3.0 fix:
+    - Removed all UI panel and navigation features to specialize in exporting.
+version 4.2.0 fix:
     - Compatibility with Blender 4.2+
     - Property registration moved to register() function.
     - Fixed AttributeError in Panel's draw() method.
     - Updated Panel location to 'UI' region.
     - Corrected keymap registration.
-    - Removed all UI panel and navigation features to specialize in exporting.
 '''
 
 import bpy
@@ -250,7 +250,3 @@ def unregister():
 
     for cls in reversed(classes):
         bpy.utils.unregister_class(cls)
-
-
-if __name__ == "__main__":
-    register()
